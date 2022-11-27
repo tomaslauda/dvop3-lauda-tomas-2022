@@ -1,0 +1,92 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {text-align: center; font: 1em sans-serif;}
+.mainTitle{
+    font: 0.6em sans-serif; 
+    color: gray; 
+    flex:1;
+    display: inline-flex;
+}
+.wrapper {
+    max-width: 1038px; 
+    margin:auto; 
+    text-align: left; 
+    flex: 1;
+}
+.kontakt{
+    text-align: right; 
+    flex:1; 
+    display: inline-flex; 
+    padding-left: 572px;
+}
+header {
+	height:50px;
+	background: #262626;
+	width: 100%;
+    flex: 1;
+}
+nav{
+    color: white;
+    word-spacing: 40px;
+    text-decoration: none;
+}
+nav a{
+    color: white;
+    padding-top: 17px;
+    word-spacing: 40px;
+    text-decoration: none;
+    padding-bottom: 15px;
+}
+hr{color: lightgray; margin-top: 10px;}
+.newContainer{
+    max-width: 1038px; 
+    font-size: 28px; 
+    margin:auto; 
+    text-align: left; 
+    padding-top: 30px;
+    flex: 1;
+}  
+img{height: 250px; width: 489px;}
+.container{ 
+    max-width: 1038px; 
+    font-size: 20px; 
+    margin:auto; 
+    display: inline-flex; 
+    flex-wrap: wrap; 
+    gap: 60px; 
+    flex:1;
+}
+.textContainer {
+    max-width: 1038px; 
+    font-size: 20px; 
+    margin:auto; 
+    gap: 60px; 
+    display: flex;
+}
+.titleL, .titleP{
+    padding-top: 20px;
+    flex:1;
+    text-align: left;
+    color: green;
+    font: 1.4em sans-serif;
+}
+.textL, .textP{
+    padding-top: 10px;
+    text-align: left;
+    flex: 1;
+    font: 0.8em sans-serif;
+    color: gray;
+}
+footer{
+    text-align: center;
+    padding: 80px;
+    color: gray;
+}
+a:hover{background-color: black;}
+.logo{
+    flex: 1;
+    display: inline-flex;
+    font-size: 23px;
+}
